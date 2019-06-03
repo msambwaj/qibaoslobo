@@ -25,6 +25,7 @@ class Heading extends React.Component {
             <div className="logoTop">
               <img alt="logo" src={logo} />
             </div>
+            <div className="center-nav" />
 
             <div className="right-navigations">
               <Menu
@@ -40,6 +41,11 @@ class Heading extends React.Component {
                 <Menu.Item key="case2">head4</Menu.Item>
                 <Menu.Item key="case3">head5</Menu.Item>
               </Menu>
+            </div>
+            <div className="hor-lines">
+              <div />
+              <div />
+              <div />
             </div>
           </div>
         </Container>

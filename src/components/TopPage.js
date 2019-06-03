@@ -1,11 +1,12 @@
 import React from "react";
-import PictureSlides from "./pictureSlides/PictureSlides";
+import MainCenter from "./mainCenter/MainCenter";
 import Heading from "./header/Heading";
 
 function TopPage() {
   return (
     <div>
       <Heading />
+      <MainCenter />
     </div>
   );
 }

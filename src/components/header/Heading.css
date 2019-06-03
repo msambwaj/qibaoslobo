@@ -1,20 +1,44 @@
 .headerTop {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  margin: 0;
 }
 
 .logoTop {
   display: flex;
-  margin: 14px 360px 0 0;
+  margin-top: 14px;
+}
+
+.center-nav {
+  display: flex;
+  flex: 1;
 }
 
 .right-navigations {
   margin-top: 29px;
   font-size: 24px;
 }
+
 .image-banner {
   margin-top: 24px;
-  height: 565px;
   align-items: center;
+}
+
+@media only sreen and (min-width: 769px) {
+  .hor-lines {
+    display: none;
+  }
+}
+@media only sreen and (max-width: 768px) {
+  .hor-lines {
+    width: 30px;
+    height: 40px;
+    margin-top: 23px;
+  }
+  .hor-lines div {
+    background-color: #82509f;
+    width: 100%;
+    height: 4px;
+    margin-top: 4px;
+  }
 }
