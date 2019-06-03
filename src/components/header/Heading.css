@@ -24,21 +24,23 @@
   align-items: center;
 }
 
-@media only sreen and (min-width: 769px) {
-  .hor-lines {
-    display: none;
-  }
-}
-@media only sreen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .hor-lines {
     width: 30px;
     height: 40px;
     margin-top: 23px;
+    margin-right: 64px;
   }
   .hor-lines div {
     background-color: #82509f;
     width: 100%;
     height: 4px;
     margin-top: 4px;
+  }
+  .right-navigations {
+    display: none;
+  }
+  .image-banner {
+    margin-top: 8px;
   }
 }
