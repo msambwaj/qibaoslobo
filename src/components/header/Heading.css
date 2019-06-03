@@ -1,0 +1,20 @@
+.headerTop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.logoTop {
+  display: flex;
+  margin: 14px 360px 0 0;
+}
+
+.right-navigations {
+  margin-top: 29px;
+  font-size: 24px;
+}
+.image-banner {
+  margin-top: 24px;
+  height: 565px;
+  align-items: center;
+}
