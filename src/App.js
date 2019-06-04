@@ -1,12 +1,12 @@
 import React from "react";
 import "./App.css";
-import TopPage from "./components/TopPage";
+import LandPage from "./components/LandPage";
 
 function App() {
   return (
     <div>
       <span>
-        <TopPage />
+        <LandPage />
       </span>
     </div>
   );

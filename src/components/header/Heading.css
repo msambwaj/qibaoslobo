@@ -28,8 +28,9 @@
   .hor-lines {
     width: 30px;
     height: 40px;
-    margin-top: 23px;
-    margin-right: 64px;
+    margin-top: 29px;
+    margin-right: 32px;
+    cursor: pointer;
   }
   .hor-lines div {
     background-color: #82509f;
